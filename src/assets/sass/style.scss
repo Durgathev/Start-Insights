@@ -1,0 +1,56 @@
+
+$primary:#276CEC;
+$btn-width:152px;
+$btn-height:52px;
+$btn-border-radius:12px;
+$btn-border-width:2px;
+
+
+$font-family-base: 'Montserrat', sans-serif; 
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700; 
+$headings-font-weight: 800;
+
+$navbar-light-color:rgb(0, 0, 0);
+
+$navbar-light-hover-color:rgba(1, 51, 220, 1);
+
+$navbar-light-active-color:rgba(1, 51, 220, 1);
+
+.nav-link .active{
+ color: $primary;
+ font-weight: $font-weight-bold;
+} 
+
+
+$secondary:#0a2a82;
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+
+
+$alert-border-radius:1rem; 
+
+
+$line-height:1.7;
+$heading-margin-bottom:$spacer *1;
+
+
+$box-shadow:                   7px 7px 0px 0px #000000CC;
+$box-shadow-sm:                5px 5px 0px 0px #000000CC;
+$box-shadow-lg:               7px 7px 0px 0px #000000CC;
+$box-shadow-inset:             7px 7px 0px 0px #000000CC;
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss'
